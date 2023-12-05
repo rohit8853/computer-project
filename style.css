@@ -1,0 +1,378 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&family=Poppins:wght@400;700&display=swap'); 
+
+ body{
+  width: 100vw;
+  height: 100vh;
+  /* padding-left: 10%; */
+  /* padding-right: 10%; */
+  background-color:rgb(225, 225, 225);
+  
+ }
+.container{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(49, 194, 238);
+    font-style: inherit;
+    font-size: 8px;
+    color: white;
+
+}
+  .container h1{
+    display: flex;
+    text-align: center; 
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 16px; 
+
+} 
+/* .nav {
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.nav ul li{
+display: inline-block;
+list-style: none;
+} */
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 8px;
+  margin: 5px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  nav ul li a:hover{
+    color: rgb(243, 55, 8);
+    cursor: pointer;
+    transform: scale(1.3);
+    transition:.1s ease-in-out ;
+  }
+  /* button{
+    border-radius: 3px;
+  } */
+ button{
+background-color:  rgb(22, 129, 230);
+padding: 12px 30px;
+border-radius: 30px;
+color: white;
+  }
+  button:hover{
+    transition: .3s;
+    transform: scale(1.2);
+    cursor: pointer;
+    color: red;
+    
+  }
+  .btn{
+    background-color: red;
+  }
+  .left{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    padding-left: 127px;
+    top: 4px;
+    padding-top: 138px;
+    display: inline-block;
+  }
+  .get {
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 12px 24px;
+    background-color: rgb(22, 129, 230);
+    color: white;
+  }
+  .right{
+    height: 500px;
+    width: 200px;
+   
+position: absolute;
+left: 650px;
+top: 165px;
+  }
+  .world{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 75px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .logos{
+    display: flex;
+    margin: 5px;
+height: 64px;
+width: 393px;
+left: 117px;
+position: relative;
+  }
+  .buttonh2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .see{
+    position: absolute;
+    position: absolute;
+    top: 777px;
+    border-style: double;
+    cursor: pointer;
+    background-color:  rgb(22, 129, 230);
+    color: white;
+    padding: 4px 40px;
+  }
+  .see:hover{
+    color: red;
+    background-color: black;
+  }
+  /* .container-1{
+    position: relative;
+    top: 77px; 
+     */
+/*   
+  .container-1 h3{
+position: absolute;
+left: 53px;
+top: 714px;
+  }
+  .container-1 h4{
+    position: absolute;
+    left: 34px;
+    top: 797px;
+    border: 3px solid #9f551f2e;
+      border-top-style: solid;
+      border-top-width: 3px;
+      border-right-style: solid;
+      border-right-width: 3px;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+      border-left-style: solid;
+      border-left-width: 3px;
+    border-style: outset;
+    border-width: 7px 46px;
+  }
+   */
+   .forimg img{
+    width: 350px;
+height: 350px;
+position: absolute;
+left: 100px;
+top: 900px;
+   }
+  .for-test{
+    position: absolute;
+left: 600px;
+bottom: 5px;
+top: 900px;
+font-size: x-large;
+  }
+ .one-plateform-more{
+  position: absolute;
+right: 410px;
+top: 1300px;
+ }
+ .see-more{
+  position: absolute;
+left: 60px;
+border-style: groove;
+padding: 0px 50px;
+cursor: pointer;
+border-color: black;
+background-color:  rgb(22, 129, 230);
+color: white;
+ }
+ .see-more:hover{
+  color: red;
+  background-color: black;
+ }
+ .slide-4{
+  display: flex;
+align-items: center;
+justify-content: space-evenly;
+position: relative;
+top: 700px;
+ }
+ .slide-3{
+  width: 205px;
+  height: 200px;
+ }
+ .slide-1-text img{
+  width: 250px;
+  height: 200px;
+ }
+ .slide-2-text img{
+  width: 250px;
+  height: 200px;
+ }
+ .slide-3-text img{
+  width: 250px;
+  height: 200px;
+ }
+ .slide-4-text img{
+  width: 250px;
+  height: 200px;
+ }
+ .slide-1-text h4{
+  position: relative;
+  top: -100px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+left: -4px;
+top: -147px;
+
+ }
+ .slide-2-text h4{
+  position: relative;
+  top: -100px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+left: -4px;
+top: -147px;
+  
+
+ }
+ .slide-3-text h4{
+  position: relative;
+  top: -100px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+left: -4px;
+top: -147px;
+  
+
+ }
+ .slide-4-text h4{
+  position: relative;
+  top: -100px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+left: -4px;
+top: -147px;
+  
+
+ }
+ .container-blue{
+  width: 100vw;
+height: 50vh;
+background-color: #183b54;
+position: relative;
+top: 599px;
+/* display: flex;
+justify-content: center;
+align-items: center;
+text-align:center;
+display: ; */
+ }
+ /* .h1-p-b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  display: inline-block;
+ } */
+ .container-blue h1{
+  color: white;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center; */
+  text-align: center;
+position: relative;
+top: 55px;
+ }
+ .container-blue p{
+   text-align: center;
+position: relative;
+top: 60px;
+ }
+ .container-blue button{
+  text-align: center;
+  position: relative;
+  top: 64px;
+left: 550px;
+ }
+.text-footer{
+  position: relative;
+  top: 700px;
+  display: flex;
+  
+  justify-content: center;
+}  
+.text-footer h2{
+  position: relative;
+  left: -203px;
+  top: -64px;
+}
+.use{
+  background-color: rgb(255, 8, 8);
+  height: 28px;
+  width: 108px;
+}
+.product-text{
+  
+    position: relative;
+    top: -63px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.product-text p:hover{
+color: red;
+}
+.methodology-text{
+  position: relative;
+  top: -63px;
+  font-size: 20px;
+  left: 80px;
+  cursor: pointer;
+}
+.methodology-text p:hover{
+  color: red;
+  }
+.Resources-text{
+  position: relative;
+  top: -63px;
+  font-size: 20px;
+  left: 178px;
+  cursor: pointer;
+}
+.Resources-text p:hover{
+  color: red;
+  }
